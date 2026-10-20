@@ -766,7 +766,7 @@ _G.SUBHAN_BOYConfig = _G.SUBHAN_BOYConfig or {
     WhiteBody = false, 
     ColorBodyV2 = false,    
     wallhackng = false, 
-    Crosshair = false, 
+    Crosshair = true, 
     CrosshairSize = 1.0,   -- <-- NEW
     Accuracy = false,
     GodMode = false, 
@@ -1645,7 +1645,7 @@ function _G.InitModMenuTab()
             UIKey = "Setting_Page_Privacy", 
             Category = {
                 { Key = "Cat_Aimbot_Force", Text= "UR/ROOM-TOUCH AIM", Stack = StackAimbotForce },
-                { Key = "Cat_ESP_Visual", Text= "ESP PLAYER", Stack = StackESPVisual },
+                --{ Key = "Cat_ESP_Visual", Text= "ESP PLAYER", Stack = StackESPVisual },
                 { Key = "Cat_Magic_Bullet", Text= "MAGIC + HEADSHOT", Stack = StackMagicBullet }
                 --{ Key = "Cat_Combat_Graphic", Text= "WALLHACK/FPS", Stack = StackCombatGraphic },
                 --{ Key = "Cat_ColorMod", Text= "COLOR CUSTOM", Stack = StackColorMod }
