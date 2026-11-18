@@ -48,7 +48,7 @@ local validPkgs = {
     ["com.tencent.tmgp.pubgm"] = true, -- PUBG Mobile China
     ["com.pubg.lite"]        = true,  -- PUBG Mobile Lite
     ["com.tencent.igce"]     = true,  -- PUBG Mobile (some regional builds)
-    ["com.tencent.pubgm"]    = true,  -- PUBG Flash / alt build
+    ["com.tencent.igfit"]    = true,  -- PUBG Flash / alt build
 }
 
 if not validPkgs[packageName] then
